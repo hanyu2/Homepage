@@ -2,11 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/app';
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
+import Redirect from './components/redirect.js';
 
 const routes = (
   <Router>
     <Switch>
        <Route exact path="/" component={App}/>
+       <Route exact path="/blog" component={Redirect}/>
     </Switch>
   </Router>
 );
