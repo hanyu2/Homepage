@@ -49,6 +49,64 @@ class Body extends Component{
         <section id="projects-section" className="projects-section section">
             <h2 className="section-title">Projects</h2>
               <div className="timeline">
+                <div className="item">
+                    <div className="study-place">
+                        <h3 className="place">Individual project</h3>
+                        <div className="location"><i className="fa fa-map-marker" aria-hidden="true"></i>Arizona State University</div>
+                    </div>
+                    <div className="job-meta">
+                        <div className="title">Real-time</div>
+                        <div className="title">Movie Recommendation System</div>
+                        <div className="time">Summer 2017</div>
+                    </div>
+                    <div className="project-desc">
+                          <ul>
+                              <li>Cleaned and persisted data with Scala on Hive and wrote queries with hql.</li>
+                              <li>Implemented a Python program to generate Nginx logs to HDFS.</li>
+                              <li>Built data pipeline with Flume and Kafka to collect logs and stream logs</li>
+                              <li>Implemented real-time data processing with Spark Streaming to consume messages from Kafka.</li>
+                              <li>Used Spark MLlib ALS to train model and stored predicted movies for all users in Redis for faster
+recommendation.</li>
+                              <li>Resolved cold start recommendations for new users with recent popular movies.</li>
+                          </ul>
+                    </div>
+                </div>
+                  <div className="item">
+                      <div className="study-place">
+                          <h3 className="place">Individual project</h3>
+                          <div className="location"><i className="fa fa-map-marker" aria-hidden="true"></i>Arizona State University</div>
+                      </div>
+                      <div className="job-meta">
+                          <div className="title">Spark based</div>
+                          <div className="title">Flight Delay Prediction</div>
+                          <div className="time">Summer 2017</div>
+                      </div>
+                      <div className="project-desc">
+                            <ul>
+                                <li>Refined and transformed data with Google OpenRefine and Databricks package.</li>
+                                <li>Used Spark MLlib Decision Tree to make flight delay predictions.</li>
+                                <li>Mined interesting flights information with Spark and visualized result with D3.js.</li>
+                            </ul>
+                      </div>
+                  </div>
+                  <div className="item">
+                      <div className="study-place">
+                          <h3 className="place">Individual project</h3>
+                          <div className="location"><i className="fa fa-map-marker" aria-hidden="true"></i>Arizona State University</div>
+                      </div>
+                      <div className="job-meta">
+                          <div className="title">Blog Web Service</div>
+                          <div className="title">with Meteor.js and React.js </div>
+                          <div className="time">Summer 2017</div>
+                      </div>
+                      <div className="project-desc">
+                            <ul>
+                                <li>Implemented a blog system with Meteor.js, React.js and Redux for personal website. </li>
+                                <li>Designed and implemented basic blog features: register, login, CRUD, tags, OAuth, comments, etc.</li>
+                                <li>Built a CI/CD pipeline with GitHub, AWS S3 and AWS Beanstalk.</li>
+                            </ul>
+                      </div>
+                  </div>
                   <div className="item">
                       <div className="study-place">
                           <h3 className="place">Class project</h3>
@@ -88,6 +146,27 @@ class Body extends Component{
 
                   <div className="item">
                       <div className="project-place">
+                          <h3 className="place">Individual project</h3>
+                          <div className="location"><i className="fa fa-map-marker" aria-hidden="true"></i>Tempe, AZ, USA</div>
+                      </div>
+                      <div className="job-meta">
+                          <div className="title">Python based </div>
+                          <div className="title">Handwriting Recognition</div>
+                          <div className="time">Spring 2016</div>
+                      </div>
+                      <div className="project-desc">
+                            <ul>
+                                <li>Implemented back propagation of "sigmoid function" with Python NumPy for parameter tuning</li>
+                                <li>Implemented a deep learning neural network with two hidden layers to recognize handwriting letters.</li>
+                                <li>Boosted recognition accuracy from 80% to 99.2% using "cross-entropy loss function" to prevent vanishing
+gradient problem.</li>
+                                <li>Used Python, Caffe and OpenCV to construct a CNN image recognizer and achieved 99.7% accuracy. </li>
+                            </ul>
+                      </div>
+                  </div>
+
+                  <div className="item">
+                      <div className="project-place">
                           <h3 className="place">Class project</h3>
                           <div className="location"><i className="fa fa-map-marker" aria-hidden="true"></i>Arizona State University</div>
                       </div>
@@ -101,6 +180,7 @@ class Body extends Component{
                                 <li>Used Spark MLLib ALS recommender system on movielens 10M stable benchmark rating dataset.</li>
                                 <li>Launched a Hadoop cluster with Spark using Amazon Elastic MapReduce service.</li>
                                 <li>Wrote scripts to produce similar movies from 1 million ratings.</li>
+                                <li>Boosted processing performance with persisted data in Alluxio from AWS S3.</li>
                             </ul>
                       </div>
                   </div>
@@ -120,7 +200,8 @@ class Body extends Component{
                                 <li>Designed and implemented an App Store with Agile development and RESTful API.</li>
                                 <li>Used Meteor.js methods to make shorter response and reduce network latency.</li>
                                 <li>Integrated different React components to make website more scalable and manageable. </li>
-                                <li>Deplyed at Heroku and mLab. Demo at:<a href="http://appstore-meteor.herokuapp.com/">BitTiger AppStore</a></li>
+                                <li>Implemented MongoDB sharding to support large data storage and load balancing.</li>
+                                <li>Depolyed at Heroku and mLab. Demo at:<a href="http://appstore-meteor.herokuapp.com/">BitTiger AppStore</a></li>
                             </ul>
                       </div>
                   </div>
@@ -236,12 +317,12 @@ class Body extends Component{
             <div className="intro">
                 <img className="profile-image" src="./images/profile-image.png" alt=""/>
                 <div className="dialog">
-                    <p>I&#39;m looking for software engineering and full stack jobs.</p>
+                    <p>I&#39;m looking for data engineering and software development jobs.</p>
                     <p><strong>I can help with the following:</strong></p>
                     <ul className="list-unstyled service-list">
-                        <li><i className="fa fa-check" aria-hidden="true"></i> Web development with MetoerJS/ReactJS or other frameworks</li>
-                        <li><i className="fa fa-check" aria-hidden="true"></i> Back-end development with Java/Python</li>
                         <li><i className="fa fa-check" aria-hidden="true"></i> Data engineering on Hadoop with Spark.</li>
+                        <li><i className="fa fa-check" aria-hidden="true"></i> Web development with MetoerJS/ReactJS or other frameworks</li>
+                        <li><i className="fa fa-check" aria-hidden="true"></i> Back-end development</li>
                     </ul>
                     <p>Drop me a line at <a href="mailto:hanyu2@asu.edu">hanyu2@asu.edu</a> or call me at 480-452-9484</p>
                     <ul className="social list-inline">

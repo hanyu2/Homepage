@@ -10,7 +10,7 @@ class Header extends Component{
             <div className="actions">
                 <a className="btn hidden-xs animated infinite swing" href="mailto:hanyu2@asu.edu"><i className="fa fa-paper-plane" aria-hidden="true"></i> Hire Me</a>
                 <a className="btn" href="http://www.blog.han-yu.me"><i className="fa fa-book" aria-hidden="true"></i>Blog</a>
-                <a className="btn" href="https://drive.google.com/file/d/0BwS99_zxAhRBWGRXd0s1TFYxcTQ/view?usp=sharing"><i className="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
+                <a className="btn" href="https://drive.google.com/file/d/0BwS99_zxAhRBSTk0YllZNGRFSXM/view?usp=sharing"><i className="fa fa-download" aria-hidden="true"></i> Download My Resume</a>
             </div>
             <ul className="social list-inline">
                 <li><a href="https://www.linkedin.com/in/hanyu2"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -26,8 +26,8 @@ class Header extends Component{
                 <div className="location"><i className="fa fa-map-marker" aria-hidden="true">&nbsp;</i>Tempe, AZ, USA</div>
                 <div className="profile">
                     <p>Master Student in Computer Science at Arizona State University.<br/>
-                    Experienced in algorithm, software development, web development and data engineering.<br />
-                    Seeking job opportunities to solve challenging problems through teamwork.<br />
+                    Quick learner, self-motivated computer science student with experience in algorithms, data engineering, machine learning, software and website development<br />
+                    Eagerly looking for full-time data engineering and software development positions.<br />
                     Give me a chance, give you a surprise!</p>
                 </div>
             </div>
