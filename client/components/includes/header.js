@@ -26,9 +26,9 @@ class Header extends Component{
                 <div className="location"><i className="fa fa-map-marker" aria-hidden="true">&nbsp;</i>Tempe, AZ, USA</div>
                 <div className="profile">
                     <p>Master Student in Computer Science at Arizona State University.<br/>
-                    Quick learner, self-motivated computer science student with experience in algorithms, data engineering, machine learning, software and website development<br />
+                    Computer science student with experience in algorithms, data engineering, machine learning, software and website development<br />
                     Eagerly looking for full-time data engineering and software development positions.<br />
-                    Give me a chance, give you a surprise!</p>
+                    </p>
                 </div>
             </div>
         </div>

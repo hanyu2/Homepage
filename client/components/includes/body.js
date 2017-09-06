@@ -320,7 +320,7 @@ gradient problem.</li>
                     <p>I&#39;m looking for data engineering and software development jobs.</p>
                     <p><strong>I can help with the following:</strong></p>
                     <ul className="list-unstyled service-list">
-                        <li><i className="fa fa-check" aria-hidden="true"></i> Data engineering on Hadoop with Spark.</li>
+                        <li><i className="fa fa-check" aria-hidden="true"></i> Data engineering on with Spark, Hive, etc.</li>
                         <li><i className="fa fa-check" aria-hidden="true"></i> Web development with MetoerJS/ReactJS or other frameworks</li>
                         <li><i className="fa fa-check" aria-hidden="true"></i> Back-end development</li>
                     </ul>
